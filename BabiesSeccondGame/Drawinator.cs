@@ -62,6 +62,7 @@ namespace BabiesSeccondGame
                 pass.Apply();
 
                 Device.DrawIndexedPrimitives(PrimitiveType.TriangleList, 0, 0, triBuffer.IndexCount / 3);
+                
             }
         }
 
@@ -69,8 +70,6 @@ namespace BabiesSeccondGame
         {
             var verts = new VertexPositionColor[24];
             var tris = new UInt16[36];
-
-            var mat = Matrix.Create();
         }
     }
 }
